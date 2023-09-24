@@ -66,7 +66,7 @@ Honestly, that page has screenshots, but basically you copy and paste their sett
 
 Transform source to fit to scren, good to go.  I would recommend using HEVC codec for less data transmission with this method, Settings > Video close to the bottom.
 
-The worst way: VDO Ninja
+## The worst way: VDO Ninja
 
 If you can't port forward, and only have $0, you can use VDO Ninja, just install the app and add a  browser source to OBS.  It is really bad quality, but is does bust firewall
 
