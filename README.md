@@ -1,26 +1,24 @@
-# IRLStreamingforFreeorCheap
+# How to IRL stream for free or cheap
 
-How to IRL stream for free or cheap
-
-Direct RTMP (Real-Time Messaging Protocol) to kick/twitch
+## Direct RTMP (Real-Time Messaging Protocol) to kick/twitch
 
 Apps: 
 
-PRISM Live (iphone and android)
+### PRISM Live (iphone and android)
 This is the most user friendly way to IRL stream via RTMP.  You can add overlays with user friendly stretching of overlays, but the built in chat is ass for kick, but might work for twitch.
 
 Login to prism via any method, and go to "ready" and add a "Custom RTMP" source with your kick credentials you can get from your dashboard.  Easy.
 
-IRL Pro (android only)
+### IRL Pro (android only)
 This is a more complicated app, but much more free (no login required) and powerful, based on historic Larix open API.  The built in kick chat is excellent, can support overlays but not a graphical way to set them up.  IRL Pro can stream directly via rtmp to kick
 
 Go to Settings>Connections and add a connection like this:
     
 rtmps://fa723fc1b171.global-contribute.live-video.net/app/{streamkey}
 
-Stream to OBS and then to kick/twitch
+## Stream to OBS and then to kick/twitch
 
-PRISM Live with Free RTMP direct to OBS
+### PRISM Live with Free RTMP direct to OBS
 
 You're going to need an nginx-rtmp install on the same system as OBS to accept the stream from PRISM.  rtmp uses port 1935 and tcp so forward port 1935/tcp from your router to OBS computer hosting nginx-rtmp
 
@@ -40,7 +38,7 @@ rtmp://0.0.0.0/publish/WORD
 
 Transform source to fit to screen, good to go.
 
-IRL Pro with Free SRT direct to OBS
+## IRL Pro with Free SRT direct to OBS
 
 We're going to use SRT (Secure Reliable Transmission) to get the stream into OBS, so pick a port.  We will use port 4000 for this example and SRT uses udp.
 
@@ -58,7 +56,7 @@ Transform source to fit to screen, good to go.  I would recommend using HEVC cod
 
 Remember, IP_ADDRESS can be a local address if you're not leaving home, but without it you will need to stream to your public IP with port 4000/udp forwarded from router to OBS computer.
 
-IRL Pro with $10/month SRT ingress from belabox cloud
+## IRL Pro with $10/month SRT ingress from belabox cloud
 
 If direct SRT from IRL Pro to OBS doesn't work, you can use a paid solution for an srtla ingress.  For this example, we will be using the belabox cloud SRTLA ingress which costs $10/month and supports belabox development and the creator, rational IRL.
 
@@ -74,7 +72,7 @@ The worst way: VDO Ninja
 
 If you can't port forward, and only have $0, you can use VDO Ninja, just install the app and add a  browser source to OBS.  It is really bad quality, but is does bust firewall
 
-#Caveats.  Shit will heat your phone up. Harsh.  No case helps. 720p uses less data and less compational power.  IRL Pro can still broadcast with screen off which screen creates heat too.  I wouldn't recommend bonding with WiFi and SIM card in hot hot heat.  But just do science and learn what works and what overheats the fucker.  
+### Caveats: This will maximize heat and temperature the phone can likely handle.  No case helps. 720p uses less data and less compational power.  IRL Pro can still broadcast with screen off which screen creates some heat too.  Bonding connections using multiple providers from IRL Pro will increase heat.  But just do science and learn what works  for your setup.  
 
 Credits banj, nhotkow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
 
