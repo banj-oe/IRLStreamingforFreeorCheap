@@ -71,8 +71,11 @@ The worst way: VDO Ninja
 If you can't port forward, and only have $0, you can use VDO Ninja, just install the app and add a  browser source to OBS.  It is really bad quality, but is does bust firewall
 
 ### Caveats
+
 This will maximize heat and temperature the phone can likely handle.  No case helps. 720p uses less data and less compational power.  IRL Pro can still broadcast with screen off which screen creates some heat too.  Bonding connections using multiple providers from IRL Pro will increase heat.  But just do science and learn what works  for your setup.  
 
-Credits banj, nhotkow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
+### Credits
+
+banj, nhotkow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
 
 We are scientists.
