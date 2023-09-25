@@ -3,7 +3,7 @@
 ## Direct RTMP (Real-Time Messaging Protocol) to kick/twitch
 
 ### PRISM Live (iphone and android)
-This is the most user friendly way to IRL stream via RTMP.  You can add overlays with user friendly stretching of overlays, but the built in chat is ass for kick, but might work for twitch.
+This is the most user friendly way to IRL stream via RTMP.  You can add overlays with user friendly stretching of overlays, but the built in chat not working for kick, but might work for twitch.
 
 Login to prism via any method, and go to "ready" and add a "Custom RTMP" source with your kick credentials you can get from your dashboard.  Easy.
 
