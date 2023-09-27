@@ -66,6 +66,16 @@ Honestly, that page has screenshots, but basically you copy and paste their sett
 
 Transform source to fit to scren, good to go.  I would recommend using HEVC codec for less data transmission with this method, Settings > Video close to the bottom.
 
+## Additional iPhone apps that can use SRT/SRTLA
+
+StreamCast Pro based on Larix API, can do cool Picture in Picture using both cameras or side by side using front and rear cameras https://apps.apple.com/us/app/streamcast-pro/id6443880300
+
+mobs (Mobile OBS) is currently under development but has SRT/SRTLA HEVC goodness baked in already.  Not in app store, but there is a TestFlight link on the github https://github.com/eerimoq/mobs
+
+Larix - commercial program, can use for 30 minutes before a watermark gets added, $10/month to use without restrictions.  Android and iPhone.
+
+mobs (mobile OBS)
+
 ## The worst way: VDO Ninja
 
 If you can't port forward, and only have $0, you can use VDO Ninja, just install the app and add a  browser source to OBS.  It is really bad quality, but is does bust firewall
