@@ -74,8 +74,6 @@ mobs (Mobile OBS) is currently under development but has SRT/SRTLA HEVC goodness
 
 Larix - commercial program, can use for 30 minutes before a watermark gets added, $10/month to use without restrictions.  Android and iPhone.
 
-mobs (mobile OBS)
-
 ## The worst way: VDO Ninja
 
 If you can't port forward, and only have $0, you can use VDO Ninja, just install the app and add a  browser source to OBS.  It is really bad quality, but is does bust firewall
