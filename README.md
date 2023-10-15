@@ -38,7 +38,7 @@ Transform source to fit to screen, good to go.
 
 ## IRL Pro with Free SRT direct to OBS
 
-We're going to use SRT (Secure Reliable Transmission) to get the stream into OBS, so pick a port.  We will use port 4000 for this example and SRT uses udp.
+We're going to use SRT (Secure Reliable Transport) to get the stream into OBS, so pick a port.  We will use port 4000 for this example and SRT uses udp.
 
 Go to Settings>Connections and add a connection like this:
     URL srt://IP_ADDRESS:4000 with default other settings
