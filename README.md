@@ -46,9 +46,9 @@ Go to Settings>Connections and add a connection like this:
 then on OBS add a media source (not local) like this
 srt://0.0.0.0:4000?mode=listener
 
-use local IP on OBS even if from internet so OBS can listen for SRT "call"
+use local IP 0.0.0.0 on OBS even if from internet so OBS can listen for SRT "call"
 
-Reconnect delay 3 seconds, input format mpegts
+Reconnect delay 2 seconds, input format mpegts
 
 Transform source to fit to screen, good to go.  I would recommend using HEVC codec for less data transmission with this method, Settings > Video close to the bottom.
 
