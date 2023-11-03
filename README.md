@@ -70,7 +70,7 @@ Transform source to fit to scren, good to go.  I would recommend using HEVC code
 
 StreamCast Pro based on Larix API, can do cool Picture in Picture using both cameras or side by side using front and rear cameras https://apps.apple.com/us/app/streamcast-pro/id6443880300
 
-mobs (Mobile OBS) is currently under development but has 1080p60 SRT/SRTLA HEVC goodness baked in already.  Not in app store, but there is a TestFlight link on the github https://github.com/eerimoq/mobs
+Moblin is currently under development but has 1080p60 SRT/SRTLA HEVC goodness baked in already.  Not in app store, but there is a TestFlight link on the github https://github.com/eerimoq/mobs
 
 Larix - commercial program, can use for 30 minutes before a watermark gets added, $10/month to use without restrictions.  Android and iPhone.
 
