@@ -16,6 +16,9 @@ rtmps://fa723fc1b171.global-contribute.live-video.net/app/{streamkey}
 
 ## Stream to OBS and then to kick/twitch
 
+Marlow made a really nice Youtube video showing this whole process.  It's called "Self-hosted OBS for IRL live streaming - an interactive tutorial for beginners" 
+https://www.youtube.com/watch?v=xoDdfiVRJHc
+
 ### PRISM Live with Free RTMP direct to OBS
 
 You're going to need an nginx-rtmp install on the same system as OBS to accept the stream from PRISM.  rtmp uses port 1935 and tcp so forward port 1935/tcp from your router to OBS computer hosting nginx-rtmp
@@ -84,6 +87,6 @@ This will maximize heat and temperature the phone can likely handle.  No case he
 
 ### Credits
 
-banj, nhotkow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
+banj, Marlow, nhotkow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
 
 We are scientists.
