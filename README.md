@@ -1,5 +1,9 @@
 # How to IRL stream for free or cheap
 
+## Current recommendations
+### Moblin on iPhone/ios
+### IRL Pro on Android
+
 ## Direct RTMP (Real-Time Messaging Protocol) to kick/twitch
 
 ### PRISM Live (iphone and android)
@@ -71,22 +75,22 @@ Transform source to fit to scren, good to go.  I would recommend using HEVC code
 
 ## Additional iPhone apps that can use SRT/SRTLA
 
-StreamCast Pro based on Larix API, can do cool Picture in Picture using both cameras or side by side using front and rear cameras https://apps.apple.com/us/app/streamcast-pro/id6443880300
+Moblin is currently under development but has 1080p60 SRT/SRTLA HEVC goodness baked in already.  Reently made it to the app store, but there is also TestFlight link for betas on the github https://github.com/eerimoq/mobs
 
-Moblin is currently under development but has 1080p60 SRT/SRTLA HEVC goodness baked in already.  Not in app store, but there is a TestFlight link on the github https://github.com/eerimoq/mobs
+StreamCast Pro based on Larix API, can do cool Picture in Picture using both cameras or side by side using front and rear cameras https://apps.apple.com/us/app/streamcast-pro/id6443880300
 
 Larix - commercial program, can use for 30 minutes before a watermark gets added, $10/month to use without restrictions.  Android and iPhone.
 
 ## The worst way: VDO Ninja
 
-If you can't port forward, and only have $0, you can use VDO Ninja, just install the app and add a  browser source to OBS.  It is really bad quality, but is does bust firewall
+If you can't port forward, and only have $0, you can use VDO Ninja, just install the app and add a browser source to OBS.  It is really bad quality, but is does bust firewalls.
 
 ### Caveats
 
-This will maximize heat and temperature the phone can likely handle.  No case helps. 720p uses less data and less compational power.  IRL Pro can still broadcast with screen off which screen creates some heat too.  Bonding connections using multiple providers from IRL Pro will increase heat.  But just do science and learn what works  for your setup.  
+This will maximize heat and temperature the phone can likely handle.  No case helps. 720p uses less data and less compational power.  IRL Pro can still broadcast with screen off which screen creates some heat too.  Bonding connections using multiple providers will increase heat.  But just do science and learn what works for your setup.  
 
 ### Credits
 
-banj, Marlow, nhotkow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
+banj, Marlow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
 
 We are scientists.
