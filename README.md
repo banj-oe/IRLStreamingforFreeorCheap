@@ -37,9 +37,11 @@ rtmp://IP_ADDRESS/publish/ where "IP_ADDRESS" can be local if using wifi or publ
 
 with a streamkey of a WORD that you won't share
 
-then on OBS add a VLC Video Source (not local) like this and loop playlist and only thing in playlist is
+then on OBS add a media source (not local), reconnect delay to 2 seconds with an input like the URL in the next line
 
 rtmp://0.0.0.0/publish/WORD
+
+Reconnect delay 2 seconds, input format mpegts
 
 Transform source to fit to screen, good to go.
 
