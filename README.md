@@ -93,6 +93,6 @@ This will maximize heat and temperature the phone can likely handle.  No case he
 
 ### Credits
 
-banj, Marlow, UnclePockets, Rationalirl, WilliamH, ffpmpeg, OBS studio the true goat software-- free as in beer and free as in speech.
+banj, Marlow, UnclePockets, Rationalirl, WilliamH, ffmpeg (the backened for OBS, VLC, all media encoding/decoding/muxing/etc), and OBS studio-- free as in beer and free as in speech.
 
 We are scientists.
