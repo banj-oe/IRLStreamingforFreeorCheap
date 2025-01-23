@@ -6,13 +6,13 @@
 
 ## Direct RTMP (Real-Time Messaging Protocol) to kick/twitch
 
-### PRISM Live (iphone and android) maybe don't use this app?
-This is the most user friendly way to IRL stream via RTMP.  You can add overlays with user friendly stretching of overlays, but the built in chat not working for kick, but might work for twitch.
+If you're on iphone rawdog kick with moblin.  If you're on android, rawdog kick with IRL Pro.  Get your stream key and URL from dashboard.
 
-Login to prism via any method, and go to "ready" and add a "Custom RTMP" source with your kick credentials you can get from your dashboard.  Easy.
+### Moblin (iphone/ipad/macos)
+Moblin is _the_ way to stream from an iphone/ipad/macos.  App store available but also for the latest get the testflight on the github https://github.com/eerimoq/mobs and join the discord.  Add a connection to kick or twitch.  Put your username for chat.  It supports chat on watch and the kitchen sink as far as features.  Check out moblink!  It gets deep.  Join the moblin discord.
 
 ### IRL Pro (android only)
-This is a more complicated app, but much more free (no login required) and powerful, based on historic Larix open API.  The built in kick chat is excellent, can support overlays but not a graphical way to set them up.  IRL Pro can stream directly via rtmp to kick
+This is a great app, don't too far into the settings. Chat is built into IRL Pro, has free built-in bonding for sending direct to platform/restream.
 
 Go to Settings>Connections and add a connection like this:
     
@@ -22,28 +22,6 @@ rtmps://fa723fc1b171.global-contribute.live-video.net/app/{streamkey}
 
 Marlow made a really nice Youtube video showing this whole process.  It's called "Self-hosted OBS for IRL live streaming - an interactive tutorial for beginners" 
 https://www.youtube.com/watch?v=xoDdfiVRJHc
-
-### PRISM Live with Free RTMP direct to OBS
-
-You're going to need an nginx-rtmp install on the same system as OBS to accept the stream from PRISM.  rtmp uses port 1935 and tcp so forward port 1935/tcp from your router to OBS computer hosting nginx-rtmp
-
-Here is a Windows build of nginx-rtmp ready to listen on port 1935 immediately and ready to accept rtmp without any configuration, just need allow port 1935 rule or disable firewall to test
-
-https://github.com/NOALBS/nginx-obs-automatic-low-bitrate-switching#nginx-setup just get "Hosted on Github" link, unzip and run nginx_start.bat
-
-Setup PRISM to stream to
-
-rtmp://IP_ADDRESS/publish/ where "IP_ADDRESS" can be local if using wifi or public ip address you can get from ipchicken.com from outside of the home if ports are forwarded.
-
-with a streamkey of a WORD that you won't share
-
-then on OBS add a media source (not local), reconnect delay to 2 seconds with an input like the URL in the next line
-
-rtmp://0.0.0.0/publish/WORD
-
-Reconnect delay 2 seconds, input format mpegts
-
-Transform source to fit to screen, good to go.
 
 ## IRL Pro with Free SRT direct to OBS
 
@@ -76,12 +54,6 @@ Honestly, that page has screenshots, but basically you copy and paste their sett
 Transform source to fit to scren, good to go.  I would recommend using HEVC codec for less data transmission with this method, Settings > Video close to the bottom.
 
 ## Additional iPhone apps that can use SRT/SRTLA
-
-Moblin is _the_ way to stream from an iphone/ipad/macos.  App store available but also for the latest get the testflight on the github https://github.com/eerimoq/mobs and join the discord.
-
-StreamCast Pro based on Larix API, can do cool Picture in Picture using both cameras or side by side using front and rear cameras https://apps.apple.com/us/app/streamcast-pro/id6443880300
-
-Larix - commercial program, can use for 30 minutes before a watermark gets added, $10/month to use without restrictions.  Android and iPhone.
 
 ## The worst way: VDO Ninja
 
