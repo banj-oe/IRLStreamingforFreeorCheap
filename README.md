@@ -12,7 +12,7 @@ If you're on iphone rawdog kick with moblin.  If you're on android, rawdog kick 
 Moblin is _the_ way to stream from an iphone/ipad/macos.  App store available but also for the latest get the testflight on the github https://github.com/eerimoq/mobs and join the discord.  Add a connection to kick or twitch.  Put your username for chat.  It supports chat on watch and the kitchen sink as far as features.  Check out moblink!  It gets deep.  Join the moblin discord.
 
 ### IRL Pro (android only)
-This is a great app, don't too far into the settings. Chat is built into IRL Pro, has free built-in bonding for sending direct to platform/restream.
+This is a great app, don't modify too far into the settings. Chat is built into IRL Pro, has free built-in bonding for sending direct to platform/restream.
 
 Go to Settings>Connections and add a connection like this:
     
