@@ -6,7 +6,7 @@
 
 ## Direct RTMP (Real-Time Messaging Protocol) to kick/twitch
 
-### PRISM Live (iphone and android)
+### PRISM Live (iphone and android) maybe don't use this app?
 This is the most user friendly way to IRL stream via RTMP.  You can add overlays with user friendly stretching of overlays, but the built in chat not working for kick, but might work for twitch.
 
 Login to prism via any method, and go to "ready" and add a "Custom RTMP" source with your kick credentials you can get from your dashboard.  Easy.
@@ -65,7 +65,7 @@ Remember, IP_ADDRESS can be a local address if you're not leaving home, but with
 
 ## IRL Pro with $10/month SRT ingress from belabox cloud
 
-If direct SRT from IRL Pro to OBS doesn't work, you can use a paid solution for an srtla ingress.  For this example, we will be using the belabox cloud SRTLA ingress which costs $10/month and supports belabox development and the creator, rational IRL.
+If direct SRT from IRL Pro to OBS doesn't work, you can use a paid solution for an srtla ingress.  For this example, we will be using the belabox cloud SRTLA ingress which costs $10/month and supports belabox development and the creator, RationalIRL.  This supports bonding multiple connections.
 
 This solution does not require port fowarding at all.
 
@@ -77,7 +77,7 @@ Transform source to fit to scren, good to go.  I would recommend using HEVC code
 
 ## Additional iPhone apps that can use SRT/SRTLA
 
-Moblin is currently under development but has 1080p60 SRT/SRTLA HEVC goodness baked in already.  Reently made it to the app store, but there is also TestFlight link for betas on the github https://github.com/eerimoq/mobs
+Moblin is _the_ way to stream from an iphone/ipad/macos.  App store available but also for the latest get the testflight on the github https://github.com/eerimoq/mobs and join the discord.
 
 StreamCast Pro based on Larix API, can do cool Picture in Picture using both cameras or side by side using front and rear cameras https://apps.apple.com/us/app/streamcast-pro/id6443880300
 
@@ -89,10 +89,10 @@ If you can't port forward, and only have $0, you can use VDO Ninja, just install
 
 ### Caveats
 
-This will maximize heat and temperature the phone can likely handle.  No case helps. 720p uses less data and less compational power.  IRL Pro can still broadcast with screen off which screen creates some heat too.  Bonding connections using multiple providers will increase heat.  But just do science and learn what works for your setup.  
+This will maximize heat and temperature the phone can likely handle.  No case helps. 720p uses less data and less encoding power usage.  IRL Pro can still broadcast with screen off which screen creates some heat too.  Bonding connections using multiple providers will increase heat.  But just do science and learn what works for your setup.  
 
 ### Credits
 
-banj, Marlow, UnclePockets, Rationalirl, WilliamH, OBS studio the true goat software-- free as in beer and free as in speech.  Big ups to Linux, OpenBSD, and Monero (XMR).  GetMonero.org
+banj, Marlow, UnclePockets, Rationalirl, WilliamH, ffpmpeg, OBS studio the true goat software-- free as in beer and free as in speech.
 
 We are scientists.
